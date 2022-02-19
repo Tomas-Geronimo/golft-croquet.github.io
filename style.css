@@ -99,7 +99,8 @@ form{
     height: 100%;
     padding: 10px;
     margin:  5px 0;
-    outline: none;      
+    outline: none;
+    border-radius: 5px;
 }
 
 .container form .input-box .btn-submit{
