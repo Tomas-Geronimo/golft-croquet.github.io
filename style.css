@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;   
+    font-family:'Ubuntu', sans-serif;
+    size: 10px;
+}
+
+html,body{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    width: 100%;
+    background: url(background.jpg);
+    background-size: cover;  
+}
+
+.container{
+    
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    max-width: 22rem;
+    width: 100%;
+    padding: 25px 30px;
+    box-shadow: 0px 4px 19px 3px #000000bf;
+}
+
+.brand{
+    width: 16rem;
+    height: 7rem;
+}
+
+.tittle{
+    display: inline-block;
+    position: relative;
+    top: 1rem;
+    font-weight: 900;
+    font-size: 2rem;
+    color: #d9d9d9;
+
+text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5);
+color: #000000;
+}
+
+.subtittle h2 .g100{color: #008000;}
+.subtittle h2 .u100{color: #12a14b;}
+.subtittle h2 .a100{color: #7fff00;}
+.subtittle h2 .l{color: #c8ff01;}
+.subtittle h2 .e{color: #ffa500;}
+.subtittle h2 .g2{color: #ff7b00;}
+.subtittle h2 .u2{color: #ff0000;}
+.subtittle h2 .a2{color: #e30052}
+.subtittle h2 .y{color: #8f008f;}
+.subtittle h2 .c{color:#9370d8;}
+.subtittle h2 .h{color: #0d5cb6;}
+.subtittle h2 .u3{color: #67d5fa;}
+
+.subtittle {
+    display: inline-block;
+    top: 1.5rem;
+    left: 1.5rem;
+    position: relative;
+    font-size: medium;
+    font-weight: 300;
+}
+.img{
+    display: inline-block;
+}
+
+img{
+    display:inline-block;
+    position: relative;
+    top: -4.6rem;
+    left: 12rem;
+    width: 55%;
+    height: 55%;    
+}
+
+form{
+    display: grid;
+    grid-column:auto;
+    justify-items: center;
+}
+.details{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 16px;
+    font-size: 17px;
+    font-weight: 500;  
+}
+
+.input-box{
+    width: 100%;
+    height: 45px;
+    margin: 1rem;   
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    margin:  5px 0;
+    outline: none;      
+}
+
+.container form .input-box .btn-submit{
+    font-family:'Ubuntu', sans-serif;
+    font-size: medium;
+    color: #fff;
+    background: #118d43;
+    margin-top: 20px;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 4px;
+    transition: 0.3s;
+    
+    
+}
+
+.container form .input-box .btn-submit:hover{
+    transform-origin: center;
+    transform:scale(95%);
+    box-shadow: inset 0px 0px 109px 15px #74b6d4;
+    color: #000;
+ }
+
+ .register{
+    margin-top: 2em;
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .register a {
+    
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+}
+
+.footer{
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 4px 19px 3px #000000bf; 
+}
+.elements-footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+    text-decoration: none;
+    
+}
+
+.elements-footer ul li{
+    
+    font-size: 14px;
+    list-style: none;
+    padding-right: 10px;
+}
+
+.elements-footer ul li a{
+    text-decoration: none;
+    color: #353535;
+}
